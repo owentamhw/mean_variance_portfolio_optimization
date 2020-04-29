@@ -1,0 +1,6 @@
+{
+  "python.pythonPath": ".venv\\Scripts\\python.exe",
+  "editor.fontSize": 17,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on"
+}
