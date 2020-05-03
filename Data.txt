@@ -1,0 +1,23 @@
+['TSLA', 'MSFT', 'FB', 'TWTR']
+start = datetime(2014, 12, 31)
+end = datetime(2017, 12, 31)
+Max sharpe ratio portfolio stats:
+ {'cumulative_ret': 0.5804429468716095, 'annual_ret': 0.2583034434360214, 'annual_std': 0.1990068126084746, 'sharpe_ratio': 1.2979628187111705}
+Min volatility portfolio stats:
+ {'cumulative_ret': 0.7262305172103372, 'annual_ret': 0.31529056066289973, 'annual_std': 0.1843248674148276, 'sharpe_ratio': 1.7105155971892314}
+Naive diversification w/o rebalance (1/N Portfolio):
+ {'cumulative_ret': 0.4559420621297283, 'annual_ret': 0.2075275129121772, 'annual_std': 0.20975921502938968, 'sharpe_ratio': 0.989360648032079}
+Naive diversification w/ rebalance (1/N Portfolio):
+ {'cumulative_ret': 0.5333735548605647, 'annual_ret': 0.2393495150178675, 'annual_std': 0.2230808171214428, 'sharpe_ratio': 1.07292737271788}
+
+['TSLA', 'MSFT', 'FB', 'NOK']
+start = datetime(2014, 12, 31)
+end = datetime(2017, 12, 31)
+Max sharpe ratio portfolio stats:
+ {'cumulative_ret': 0.5817961198246704, 'annual_ret': 0.2588441531030701, 'annual_std': 0.1991760326008922, 'sharpe_ratio': 1.299574801862534}
+Min volatility portfolio stats:
+ {'cumulative_ret': 0.49110621869853754, 'annual_ret': 0.2220808122604987, 'annual_std': 0.17579300014516547, 'sharpe_ratio': 1.2633086190980864}
+Naive diversification w/o rebalance (1/N Portfolio):
+ {'cumulative_ret': 0.36606154675723834, 'annual_ret': 0.16951284029224523, 'annual_std': 0.18318186027694408, 'sharpe_ratio': 0.9253800569334032}
+Naive diversification w/ rebalance (1/N Portfolio):
+ {'cumulative_ret': 0.35648738983300543, 'annual_ret': 0.16539099195971918, 'annual_std': 0.1863708078942654, 'sharpe_ratio': 0.8874297097727408}
