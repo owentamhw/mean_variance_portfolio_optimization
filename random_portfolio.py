@@ -16,9 +16,9 @@ def random_portfolios(returns: pd.DataFrame, total: int = 5000) -> pd.DataFrame:
     w = np.random.random(num_assets)
     w /= np.sum(w)
     lst_weight.append(w)
-    ret = np.dot(w, exp_ret)
+    ret = np.dot(w, exp_ret) * 252
     lst_ret.append(ret)
-    vol = np.sqrt(np.dot(w, np.dot(cov, w)))
+    vol = np.sqrt(np.dot(w, np.dot(cov, w))) * np.sqrt(252)
     lst_vol.append(vol)
 
   # Dataframe for storing all results
