@@ -35,7 +35,7 @@ annual_asset_std = returns.std(ddof=0) * np.sqrt(252)
 
 if is_display_random:
   # Random portfolios
-  df_random = random_portfolios(returns=returns, total=2000)
+  df_random = random_portfolios(returns=returns, total=5000)
   df_random['Sharpe Ratio'] = (
       df_random['Returns'] - risk_free_rate) / df_random['Volatility']
   # max sharpe random portfolio

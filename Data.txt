@@ -1,23 +1,40 @@
 ['TSLA', 'MSFT', 'FB', 'TWTR']
 start = datetime(2014, 12, 31)
 end = datetime(2017, 12, 31)
+
 Max sharpe ratio portfolio stats:
- {'cumulative_ret': 0.5804429468716095, 'annual_ret': 0.2583034434360214, 'annual_std': 0.1990068126084746, 'sharpe_ratio': 1.2979628187111705}
+             annual_ret  annual_std  cumulative_ret  max_daily_drawdown  max_drawdown_duration  sharpe_ratio  sortino_ratio
+Max Sharpe      0.2583      0.1992          0.5804             -0.1346                   81.0        0.2583         0.1112
+
 Min volatility portfolio stats:
- {'cumulative_ret': 0.7262305172103372, 'annual_ret': 0.31529056066289973, 'annual_std': 0.1843248674148276, 'sharpe_ratio': 1.7105155971892314}
-Naive diversification w/o rebalance (1/N Portfolio):
- {'cumulative_ret': 0.4559420621297283, 'annual_ret': 0.2075275129121772, 'annual_std': 0.20975921502938968, 'sharpe_ratio': 0.989360648032079}
-Naive diversification w/ rebalance (1/N Portfolio):
- {'cumulative_ret': 0.5333735548605647, 'annual_ret': 0.2393495150178675, 'annual_std': 0.2230808171214428, 'sharpe_ratio': 1.07292737271788}
+          annual_ret  annual_std  cumulative_ret  max_daily_drawdown  max_drawdown_duration  sharpe_ratio  sortino_ratio
+Min Vol       0.313      0.1845          0.7202             -0.1417                   62.0         0.313         0.1296
+
+Naive diversification without rebalance (1/N Portfolio):
+                    annual_ret  annual_std  cumulative_ret  max_daily_drawdown  max_drawdown_duration  sharpe_ratio  sortino_ratio
+1/N w/o rebalance      0.2075        0.21          0.4559             -0.2063                   77.0        0.2075         0.0798
+
+Naive diversification with rebalance (1/N Portfolio):
+                   annual_ret  annual_std  cumulative_ret  max_daily_drawdown  max_drawdown_duration  sharpe_ratio  sortino_ratio
+1/N w/ rebalance      0.2393      0.2233          0.5334              -0.211                   76.0        0.2393         0.0857
+
 
 ['TSLA', 'MSFT', 'FB', 'NOK']
 start = datetime(2014, 12, 31)
 end = datetime(2017, 12, 31)
+
 Max sharpe ratio portfolio stats:
- {'cumulative_ret': 0.5817961198246704, 'annual_ret': 0.2588441531030701, 'annual_std': 0.1991760326008922, 'sharpe_ratio': 1.299574801862534}
+             annual_ret  annual_std  cumulative_ret  max_daily_drawdown  max_drawdown_duration  sharpe_ratio  sortino_ratio
+Max Sharpe      0.2588      0.1994          0.5818             -0.1346                   81.0        0.2588         0.1115
+
 Min volatility portfolio stats:
- {'cumulative_ret': 0.49110621869853754, 'annual_ret': 0.2220808122604987, 'annual_std': 0.17579300014516547, 'sharpe_ratio': 1.2633086190980864}
-Naive diversification w/o rebalance (1/N Portfolio):
- {'cumulative_ret': 0.36606154675723834, 'annual_ret': 0.16951284029224523, 'annual_std': 0.18318186027694408, 'sharpe_ratio': 0.9253800569334032}
-Naive diversification w/ rebalance (1/N Portfolio):
- {'cumulative_ret': 0.35648738983300543, 'annual_ret': 0.16539099195971918, 'annual_std': 0.1863708078942654, 'sharpe_ratio': 0.8874297097727408}
+          annual_ret  annual_std  cumulative_ret  max_daily_drawdown  max_drawdown_duration  sharpe_ratio  sortino_ratio
+Min Vol      0.2379      0.1832          0.5297             -0.1237                   87.0        0.2379         0.1074
+
+Naive diversification without rebalance (1/N Portfolio):
+                    annual_ret  annual_std  cumulative_ret  max_daily_drawdown  max_drawdown_duration  sharpe_ratio  sortino_ratio
+1/N w/o rebalance      0.1695      0.1834          0.3661             -0.1642                  116.0        0.1695         0.0802
+
+Naive diversification with rebalance (1/N Portfolio):
+                   annual_ret  annual_std  cumulative_ret  max_daily_drawdown  max_drawdown_duration  sharpe_ratio  sortino_ratio
+1/N w/ rebalance      0.1654      0.1866          0.3565             -0.1668                  116.0        0.1654         0.0761
