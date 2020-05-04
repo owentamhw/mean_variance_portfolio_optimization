@@ -32,4 +32,8 @@ Implementation of tradings strategies following the mean variance portfolio opti
 - [**efficient_frontier_strat.py**](efficient_frontier_strat.py) are used to obtain optimized weight allocation at the first trading day of each month based on the prices of past 252 trading days.
 - get_portfolio_stat simulates the monthly rebalance of portfolio throughout the whole period of time.
 - Naive diversification strategies (with and without rebalance) were simulated for performance comparison.
+<<<<<<< HEAD
 - Figures on portfolio cumulative returns, drawdowns and weight allocation of assets were plotted.
+=======
+- Figures on portfolio cumulative returns, drawdowns and weight allocation of assets were plotted.
+>>>>>>> 15d08bcb48a375b2763b7b42d07330b47e30ffea
