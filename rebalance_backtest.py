@@ -17,8 +17,8 @@ from portfolio_statistic import *
 # getdata(test, start, end, True)
 
 # read prices data
-#path='./stock_data/test_data.csv'
-path='./stock_data/20-05-03_165042.csv'
+#path='./stock_data/TSLA_MSFT_FB_TWTR.csv'
+path='./stock_data/TSLA_MSFT_FB_NOK.csv'
 
 prices = pd.read_csv(path)
 
